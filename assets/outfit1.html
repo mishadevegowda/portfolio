@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>LEVELS</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./assets/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
@@ -11,7 +11,7 @@
     /* Animation for the text and buttons */
     .animate {
       animation: slideUp 1s ease forwards;
-      opacity: 0;
+      opacity: 1;
       transform: translateY(100%);
       size: 3em;
     }
@@ -54,7 +54,7 @@
 </head>
 <body>
   <section class="video-section" style="position: relative;">
-    <video src="./media/RPReplay_Final1704479927 (1).mp4" autoplay loop muted type="video/mp4"></video>
+    <video src="./assets/RPReplay_Final1704479927 (1).mp4" autoplay loop muted type="video/mp4"></video>
     <div class="video-overlay1" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
       <h1 id="clickMessage" class="animate">PICK A LEVEL</h1>
       <div class="button-wrapper animate">
@@ -64,6 +64,6 @@
       </div>
     </div>
   </section>
-  <script src="script.js"></script>
+  <script src="./assets/script.js"></script>
 </body>
 </html>
